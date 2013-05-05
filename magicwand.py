@@ -9,7 +9,7 @@ if len(sys.argv) == 2:
                 break
             print " ",
             for c in line:
-                print "%d,  " % (ord(c)),
+                print "0%d,  " % (ord(c)),
             print " "
     if sys.argv[1] == '-d':
         while True:
